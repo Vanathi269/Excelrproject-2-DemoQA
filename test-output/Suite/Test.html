@@ -1,0 +1,204 @@
+<html>
+<head>
+<title>TestNG:  Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>25/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Fri Mar 03 10:31:43 IST 2023</td>
+</tr>
+<tr><td>Total time:</td><td>250 seconds (250523 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='DemoQA.WidgetsTwo.widgetTwo()'><b>widgetTwo</b><br>Test class: DemoQA.WidgetsTwo</td>
+<td></td>
+<td>10</td>
+<td>DemoQA.WidgetsTwo@35d019a3</td></tr>
+<tr>
+<td title='DemoQA.OldSelectOne.oldSelectOne()'><b>oldSelectOne</b><br>Test class: DemoQA.OldSelectOne</td>
+<td></td>
+<td>0</td>
+<td>DemoQA.OldSelectOne@f6efaab</td></tr>
+<tr>
+<td title='DemoQA.TwoFrames.frameVerifying()'><b>frameVerifying</b><br>Test class: DemoQA.TwoFrames</td>
+<td></td>
+<td>0</td>
+<td>DemoQA.TwoFrames@49e53c76</td></tr>
+<tr>
+<td title='DemoQA.ProgressBar.progressBar()'><b>progressBar</b><br>Test class: DemoQA.ProgressBar</td>
+<td></td>
+<td>0</td>
+<td>DemoQA.ProgressBar@3c19aaa5</td></tr>
+<tr>
+<td title='DemoQA.SmallModal.smallModal()'><b>smallModal</b><br>Test class: DemoQA.SmallModal</td>
+<td></td>
+<td>0</td>
+<td>DemoQA.SmallModal@6aeb35e6</td></tr>
+<tr>
+<td title='DemoQA.FooterSection.footerSection()'><b>footerSection</b><br>Test class: DemoQA.FooterSection</td>
+<td></td>
+<td>0</td>
+<td>DemoQA.FooterSection@2a3b5b47</td></tr>
+<tr>
+<td title='DemoQA.Tag.tag()'><b>tag</b><br>Test class: DemoQA.Tag</td>
+<td></td>
+<td>0</td>
+<td>DemoQA.Tag@1bd4fdd</td></tr>
+<tr>
+<td title='DemoQA.Alerts.alerts()'><b>alerts</b><br>Test class: DemoQA.Alerts</td>
+<td></td>
+<td>0</td>
+<td>DemoQA.Alerts@1283bb96</td></tr>
+<tr>
+<td title='DemoQA.Slider.slider()'><b>slider</b><br>Test class: DemoQA.Slider</td>
+<td></td>
+<td>0</td>
+<td>DemoQA.Slider@74f0ea28</td></tr>
+<tr>
+<td title='DemoQA.LaunchingBrowser.browseLaunch()'><b>browseLaunch</b><br>Test class: DemoQA.LaunchingBrowser</td>
+<td></td>
+<td>0</td>
+<td>DemoQA.LaunchingBrowser@409bf450</td></tr>
+<tr>
+<td title='DemoQA.NewMessage.newMessage()'><b>newMessage</b><br>Test class: DemoQA.NewMessage</td>
+<td></td>
+<td>0</td>
+<td>DemoQA.NewMessage@4f83df68</td></tr>
+<tr>
+<td title='DemoQA.Widgets.widget()'><b>widget</b><br>Test class: DemoQA.Widgets</td>
+<td></td>
+<td>0</td>
+<td>DemoQA.Widgets@42a48628</td></tr>
+<tr>
+<td title='DemoQA.AlertsButton.alertButton()'><b>alertButton</b><br>Test class: DemoQA.AlertsButton</td>
+<td></td>
+<td>0</td>
+<td>DemoQA.AlertsButton@18078bef</td></tr>
+<tr>
+<td title='DemoQA.TimerAlert.timerAlerts()'><b>timerAlerts</b><br>Test class: DemoQA.TimerAlert</td>
+<td></td>
+<td>10</td>
+<td>DemoQA.TimerAlert@293a5bf6</td></tr>
+<tr>
+<td title='DemoQA.NewWindowMessage.newWindowMessage()'><b>newWindowMessage</b><br>Test class: DemoQA.NewWindowMessage</td>
+<td></td>
+<td>0</td>
+<td>DemoQA.NewWindowMessage@3349e9bb</td></tr>
+<tr>
+<td title='DemoQA.BrowserWindow.browserWindow()'><b>browserWindow</b><br>Test class: DemoQA.BrowserWindow</td>
+<td></td>
+<td>0</td>
+<td>DemoQA.BrowserWindow@747ddf94</td></tr>
+<tr>
+<td title='DemoQA.NewTab.newTab()'><b>newTab</b><br>Test class: DemoQA.NewTab</td>
+<td></td>
+<td>0</td>
+<td>DemoQA.NewTab@6cf0e0ba</td></tr>
+<tr>
+<td title='DemoQA.CancelAlert.cancelAlert()'><b>cancelAlert</b><br>Test class: DemoQA.CancelAlert</td>
+<td></td>
+<td>0</td>
+<td>DemoQA.CancelAlert@55183b20</td></tr>
+<tr>
+<td title='DemoQA.ConfirmAlert.confirmAlert()'><b>confirmAlert</b><br>Test class: DemoQA.ConfirmAlert</td>
+<td></td>
+<td>0</td>
+<td>DemoQA.ConfirmAlert@35e2d654</td></tr>
+<tr>
+<td title='DemoQA.ToolTip.toolTip()'><b>toolTip</b><br>Test class: DemoQA.ToolTip</td>
+<td></td>
+<td>0</td>
+<td>DemoQA.ToolTip@38d8f54a</td></tr>
+<tr>
+<td title='DemoQA.Accordian.accordian()'><b>accordian</b><br>Test class: DemoQA.Accordian</td>
+<td></td>
+<td>0</td>
+<td>DemoQA.Accordian@55b699ef</td></tr>
+<tr>
+<td title='DemoQA.Demo.demo()'><b>demo</b><br>Test class: DemoQA.Demo</td>
+<td></td>
+<td>0</td>
+<td>DemoQA.Demo@799f10e1</td></tr>
+<tr>
+<td title='DemoQA.FrameTwoScrollDown.scrollDown()'><b>scrollDown</b><br>Test class: DemoQA.FrameTwoScrollDown</td>
+<td></td>
+<td>0</td>
+<td>DemoQA.FrameTwoScrollDown@5876a9af</td></tr>
+<tr>
+<td title='DemoQA.PropmtAlert.promptAlerts()'><b>promptAlerts</b><br>Test class: DemoQA.PropmtAlert</td>
+<td></td>
+<td>0</td>
+<td>DemoQA.PropmtAlert@689604d9</td></tr>
+<tr>
+<td title='DemoQA.LargeModal.largeModal()'><b>largeModal</b><br>Test class: DemoQA.LargeModal</td>
+<td></td>
+<td>0</td>
+<td>DemoQA.LargeModal@351d00c0</td></tr>
+</table><p>
+</body>
+</html>

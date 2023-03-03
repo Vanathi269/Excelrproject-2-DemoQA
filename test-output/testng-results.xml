@@ -1,0 +1,361 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="25" passed="25" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-03-03T10:31:43 IST" name="Suite" finished-at="2023-03-03T10:35:53 IST" duration-ms="250523">
+    <groups>
+    </groups>
+    <test started-at="2023-03-03T10:31:43 IST" name="Test" finished-at="2023-03-03T10:35:53 IST" duration-ms="250523">
+      <class name="DemoQA.WidgetsTwo">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:DemoQA.WidgetsTwo@35d019a3]" started-at="2023-03-03T10:35:08 IST" name="beforeMethod" finished-at="2023-03-03T10:35:16 IST" duration-ms="7535" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="widgetTwo()[pri:0, instance:DemoQA.WidgetsTwo@35d019a3]" started-at="2023-03-03T10:35:16 IST" name="widgetTwo" finished-at="2023-03-03T10:35:26 IST" duration-ms="10619" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- widgetTwo -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:DemoQA.WidgetsTwo@35d019a3]" started-at="2023-03-03T10:35:26 IST" name="afterMethod" finished-at="2023-03-03T10:35:27 IST" duration-ms="274" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- DemoQA.WidgetsTwo -->
+      <class name="DemoQA.Tag">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:DemoQA.Tag@1bd4fdd]" started-at="2023-03-03T10:32:08 IST" name="beforeMethod" finished-at="2023-03-03T10:32:19 IST" duration-ms="10225" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="tag()[pri:0, instance:DemoQA.Tag@1bd4fdd]" started-at="2023-03-03T10:32:19 IST" name="tag" finished-at="2023-03-03T10:32:19 IST" duration-ms="407" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tag -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:DemoQA.Tag@1bd4fdd]" started-at="2023-03-03T10:32:19 IST" name="afterMethod" finished-at="2023-03-03T10:32:19 IST" duration-ms="155" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- DemoQA.Tag -->
+      <class name="DemoQA.PropmtAlert">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:DemoQA.PropmtAlert@689604d9]" started-at="2023-03-03T10:35:27 IST" name="beforeMethod" finished-at="2023-03-03T10:35:34 IST" duration-ms="7380" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="promptAlerts()[pri:0, instance:DemoQA.PropmtAlert@689604d9]" started-at="2023-03-03T10:35:34 IST" name="promptAlerts" finished-at="2023-03-03T10:35:34 IST" duration-ms="265" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- promptAlerts -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:DemoQA.PropmtAlert@689604d9]" started-at="2023-03-03T10:35:34 IST" name="afterMethod" finished-at="2023-03-03T10:35:34 IST" duration-ms="114" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- DemoQA.PropmtAlert -->
+      <class name="DemoQA.SmallModal">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:DemoQA.SmallModal@6aeb35e6]" started-at="2023-03-03T10:33:22 IST" name="beforeMethod" finished-at="2023-03-03T10:33:33 IST" duration-ms="11148" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="smallModal()[pri:0, instance:DemoQA.SmallModal@6aeb35e6]" started-at="2023-03-03T10:33:33 IST" name="smallModal" finished-at="2023-03-03T10:33:33 IST" duration-ms="401" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- smallModal -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:DemoQA.SmallModal@6aeb35e6]" started-at="2023-03-03T10:33:33 IST" name="afterMethod" finished-at="2023-03-03T10:33:33 IST" duration-ms="184" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- DemoQA.SmallModal -->
+      <class name="DemoQA.ProgressBar">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:DemoQA.ProgressBar@3c19aaa5]" started-at="2023-03-03T10:34:02 IST" name="beforeMethod" finished-at="2023-03-03T10:34:10 IST" duration-ms="7539" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="progressBar()[pri:0, instance:DemoQA.ProgressBar@3c19aaa5]" started-at="2023-03-03T10:34:10 IST" name="progressBar" finished-at="2023-03-03T10:34:10 IST" duration-ms="241" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- progressBar -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:DemoQA.ProgressBar@3c19aaa5]" started-at="2023-03-03T10:34:10 IST" name="afterMethod" finished-at="2023-03-03T10:34:10 IST" duration-ms="196" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- DemoQA.ProgressBar -->
+      <class name="DemoQA.BrowserWindow">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:DemoQA.BrowserWindow@747ddf94]" started-at="2023-03-03T10:31:52 IST" name="beforeMethod" finished-at="2023-03-03T10:31:59 IST" duration-ms="7566" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="browserWindow()[pri:0, instance:DemoQA.BrowserWindow@747ddf94]" started-at="2023-03-03T10:31:59 IST" name="browserWindow" finished-at="2023-03-03T10:31:59 IST" duration-ms="24" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserWindow -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:DemoQA.BrowserWindow@747ddf94]" started-at="2023-03-03T10:31:59 IST" name="afterMethod" finished-at="2023-03-03T10:32:00 IST" duration-ms="208" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- DemoQA.BrowserWindow -->
+      <class name="DemoQA.Demo">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:DemoQA.Demo@799f10e1]" started-at="2023-03-03T10:35:43 IST" name="beforeMethod" finished-at="2023-03-03T10:35:53 IST" duration-ms="10109" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="demo()[pri:0, instance:DemoQA.Demo@799f10e1]" started-at="2023-03-03T10:35:53 IST" name="demo" finished-at="2023-03-03T10:35:53 IST" duration-ms="172" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- demo -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:DemoQA.Demo@799f10e1]" started-at="2023-03-03T10:35:53 IST" name="afterMethod" finished-at="2023-03-03T10:35:53 IST" duration-ms="157" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- DemoQA.Demo -->
+      <class name="DemoQA.LargeModal">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:DemoQA.LargeModal@351d00c0]" started-at="2023-03-03T10:34:44 IST" name="beforeMethod" finished-at="2023-03-03T10:34:52 IST" duration-ms="8045" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="largeModal()[pri:0, instance:DemoQA.LargeModal@351d00c0]" started-at="2023-03-03T10:34:52 IST" name="largeModal" finished-at="2023-03-03T10:34:53 IST" duration-ms="411" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- largeModal -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:DemoQA.LargeModal@351d00c0]" started-at="2023-03-03T10:34:53 IST" name="afterMethod" finished-at="2023-03-03T10:34:53 IST" duration-ms="130" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- DemoQA.LargeModal -->
+      <class name="DemoQA.ToolTip">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:DemoQA.ToolTip@38d8f54a]" started-at="2023-03-03T10:34:28 IST" name="beforeMethod" finished-at="2023-03-03T10:34:35 IST" duration-ms="6843" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="toolTip()[pri:0, instance:DemoQA.ToolTip@38d8f54a]" started-at="2023-03-03T10:34:35 IST" name="toolTip" finished-at="2023-03-03T10:34:36 IST" duration-ms="584" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- toolTip -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:DemoQA.ToolTip@38d8f54a]" started-at="2023-03-03T10:34:36 IST" name="afterMethod" finished-at="2023-03-03T10:34:36 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- DemoQA.ToolTip -->
+      <class name="DemoQA.ConfirmAlert">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:DemoQA.ConfirmAlert@35e2d654]" started-at="2023-03-03T10:32:00 IST" name="beforeMethod" finished-at="2023-03-03T10:32:08 IST" duration-ms="8062" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="confirmAlert()[pri:0, instance:DemoQA.ConfirmAlert@35e2d654]" started-at="2023-03-03T10:32:08 IST" name="confirmAlert" finished-at="2023-03-03T10:32:08 IST" duration-ms="375" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- confirmAlert -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:DemoQA.ConfirmAlert@35e2d654]" started-at="2023-03-03T10:32:08 IST" name="afterMethod" finished-at="2023-03-03T10:32:08 IST" duration-ms="182" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- DemoQA.ConfirmAlert -->
+      <class name="DemoQA.NewTab">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:DemoQA.NewTab@6cf0e0ba]" started-at="2023-03-03T10:32:40 IST" name="beforeMethod" finished-at="2023-03-03T10:32:50 IST" duration-ms="10092" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="newTab()[pri:0, instance:DemoQA.NewTab@6cf0e0ba]" started-at="2023-03-03T10:32:50 IST" name="newTab" finished-at="2023-03-03T10:32:50 IST" duration-ms="360" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- newTab -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:DemoQA.NewTab@6cf0e0ba]" started-at="2023-03-03T10:32:50 IST" name="afterMethod" finished-at="2023-03-03T10:32:50 IST" duration-ms="194" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- DemoQA.NewTab -->
+      <class name="DemoQA.Widgets">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:DemoQA.Widgets@42a48628]" started-at="2023-03-03T10:32:50 IST" name="beforeMethod" finished-at="2023-03-03T10:33:00 IST" duration-ms="9935" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="widget()[pri:0, instance:DemoQA.Widgets@42a48628]" started-at="2023-03-03T10:33:00 IST" name="widget" finished-at="2023-03-03T10:33:01 IST" duration-ms="369" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- widget -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:DemoQA.Widgets@42a48628]" started-at="2023-03-03T10:33:01 IST" name="afterMethod" finished-at="2023-03-03T10:33:01 IST" duration-ms="144" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- DemoQA.Widgets -->
+      <class name="DemoQA.FooterSection">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:DemoQA.FooterSection@2a3b5b47]" started-at="2023-03-03T10:34:53 IST" name="beforeMethod" finished-at="2023-03-03T10:35:00 IST" duration-ms="6873" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="footerSection()[pri:0, instance:DemoQA.FooterSection@2a3b5b47]" started-at="2023-03-03T10:35:00 IST" name="footerSection" finished-at="2023-03-03T10:35:00 IST" duration-ms="50" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- footerSection -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:DemoQA.FooterSection@2a3b5b47]" started-at="2023-03-03T10:35:00 IST" name="afterMethod" finished-at="2023-03-03T10:35:00 IST" duration-ms="127" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- DemoQA.FooterSection -->
+      <class name="DemoQA.Alerts">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:DemoQA.Alerts@1283bb96]" started-at="2023-03-03T10:33:33 IST" name="beforeMethod" finished-at="2023-03-03T10:33:41 IST" duration-ms="7988" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="alerts()[pri:0, instance:DemoQA.Alerts@1283bb96]" started-at="2023-03-03T10:33:41 IST" name="alerts" finished-at="2023-03-03T10:33:42 IST" duration-ms="295" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- alerts -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:DemoQA.Alerts@1283bb96]" started-at="2023-03-03T10:33:42 IST" name="afterMethod" finished-at="2023-03-03T10:33:42 IST" duration-ms="148" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- DemoQA.Alerts -->
+      <class name="DemoQA.TimerAlert">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:DemoQA.TimerAlert@293a5bf6]" started-at="2023-03-03T10:33:01 IST" name="beforeMethod" finished-at="2023-03-03T10:33:11 IST" duration-ms="10374" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="timerAlerts()[pri:0, instance:DemoQA.TimerAlert@293a5bf6]" started-at="2023-03-03T10:33:11 IST" name="timerAlerts" finished-at="2023-03-03T10:33:21 IST" duration-ms="10190" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- timerAlerts -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:DemoQA.TimerAlert@293a5bf6]" started-at="2023-03-03T10:33:21 IST" name="afterMethod" finished-at="2023-03-03T10:33:22 IST" duration-ms="146" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- DemoQA.TimerAlert -->
+      <class name="DemoQA.OldSelectOne">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:DemoQA.OldSelectOne@f6efaab]" started-at="2023-03-03T10:33:51 IST" name="beforeMethod" finished-at="2023-03-03T10:34:02 IST" duration-ms="10895" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="oldSelectOne()[pri:0, instance:DemoQA.OldSelectOne@f6efaab]" started-at="2023-03-03T10:34:02 IST" name="oldSelectOne" finished-at="2023-03-03T10:34:02 IST" duration-ms="763" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- oldSelectOne -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:DemoQA.OldSelectOne@f6efaab]" started-at="2023-03-03T10:34:02 IST" name="afterMethod" finished-at="2023-03-03T10:34:02 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- DemoQA.OldSelectOne -->
+      <class name="DemoQA.Slider">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:DemoQA.Slider@74f0ea28]" started-at="2023-03-03T10:33:42 IST" name="beforeMethod" finished-at="2023-03-03T10:33:50 IST" duration-ms="8068" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="slider()[pri:0, instance:DemoQA.Slider@74f0ea28]" started-at="2023-03-03T10:33:50 IST" name="slider" finished-at="2023-03-03T10:33:51 IST" duration-ms="775" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- slider -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:DemoQA.Slider@74f0ea28]" started-at="2023-03-03T10:33:51 IST" name="afterMethod" finished-at="2023-03-03T10:33:51 IST" duration-ms="145" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- DemoQA.Slider -->
+      <class name="DemoQA.FrameTwoScrollDown">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:DemoQA.FrameTwoScrollDown@5876a9af]" started-at="2023-03-03T10:31:43 IST" name="beforeMethod" finished-at="2023-03-03T10:31:51 IST" duration-ms="8617" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="scrollDown()[pri:0, instance:DemoQA.FrameTwoScrollDown@5876a9af]" started-at="2023-03-03T10:31:51 IST" name="scrollDown" finished-at="2023-03-03T10:31:52 IST" duration-ms="314" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- scrollDown -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:DemoQA.FrameTwoScrollDown@5876a9af]" started-at="2023-03-03T10:31:52 IST" name="afterMethod" finished-at="2023-03-03T10:31:52 IST" duration-ms="187" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- DemoQA.FrameTwoScrollDown -->
+      <class name="DemoQA.AlertsButton">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:DemoQA.AlertsButton@18078bef]" started-at="2023-03-03T10:35:34 IST" name="beforeMethod" finished-at="2023-03-03T10:35:42 IST" duration-ms="7983" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="alertButton()[pri:0, instance:DemoQA.AlertsButton@18078bef]" started-at="2023-03-03T10:35:42 IST" name="alertButton" finished-at="2023-03-03T10:35:43 IST" duration-ms="302" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- alertButton -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:DemoQA.AlertsButton@18078bef]" started-at="2023-03-03T10:35:43 IST" name="afterMethod" finished-at="2023-03-03T10:35:43 IST" duration-ms="158" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- DemoQA.AlertsButton -->
+      <class name="DemoQA.TwoFrames">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:DemoQA.TwoFrames@49e53c76]" started-at="2023-03-03T10:34:36 IST" name="beforeMethod" finished-at="2023-03-03T10:34:43 IST" duration-ms="7584" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="frameVerifying()[pri:0, instance:DemoQA.TwoFrames@49e53c76]" started-at="2023-03-03T10:34:43 IST" name="frameVerifying" finished-at="2023-03-03T10:34:44 IST" duration-ms="370" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- frameVerifying -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:DemoQA.TwoFrames@49e53c76]" started-at="2023-03-03T10:34:44 IST" name="afterMethod" finished-at="2023-03-03T10:34:44 IST" duration-ms="210" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- DemoQA.TwoFrames -->
+      <class name="DemoQA.CancelAlert">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:DemoQA.CancelAlert@55183b20]" started-at="2023-03-03T10:32:19 IST" name="beforeMethod" finished-at="2023-03-03T10:32:29 IST" duration-ms="9781" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="cancelAlert()[pri:0, instance:DemoQA.CancelAlert@55183b20]" started-at="2023-03-03T10:32:29 IST" name="cancelAlert" finished-at="2023-03-03T10:32:29 IST" duration-ms="343" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cancelAlert -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:DemoQA.CancelAlert@55183b20]" started-at="2023-03-03T10:32:29 IST" name="afterMethod" finished-at="2023-03-03T10:32:30 IST" duration-ms="309" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- DemoQA.CancelAlert -->
+      <class name="DemoQA.NewWindowMessage">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:DemoQA.NewWindowMessage@3349e9bb]" started-at="2023-03-03T10:34:10 IST" name="beforeMethod" finished-at="2023-03-03T10:34:18 IST" duration-ms="7615" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="newWindowMessage()[pri:0, instance:DemoQA.NewWindowMessage@3349e9bb]" started-at="2023-03-03T10:34:18 IST" name="newWindowMessage" finished-at="2023-03-03T10:34:18 IST" duration-ms="337" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- newWindowMessage -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:DemoQA.NewWindowMessage@3349e9bb]" started-at="2023-03-03T10:34:18 IST" name="afterMethod" finished-at="2023-03-03T10:34:19 IST" duration-ms="190" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- DemoQA.NewWindowMessage -->
+      <class name="DemoQA.LaunchingBrowser">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:DemoQA.LaunchingBrowser@409bf450]" started-at="2023-03-03T10:34:19 IST" name="beforeMethod" finished-at="2023-03-03T10:34:28 IST" duration-ms="9696" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="browseLaunch()[pri:0, instance:DemoQA.LaunchingBrowser@409bf450]" started-at="2023-03-03T10:34:28 IST" name="browseLaunch" finished-at="2023-03-03T10:34:28 IST" duration-ms="62" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browseLaunch -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:DemoQA.LaunchingBrowser@409bf450]" started-at="2023-03-03T10:34:28 IST" name="afterMethod" finished-at="2023-03-03T10:34:28 IST" duration-ms="134" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- DemoQA.LaunchingBrowser -->
+      <class name="DemoQA.NewMessage">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:DemoQA.NewMessage@4f83df68]" started-at="2023-03-03T10:32:30 IST" name="beforeMethod" finished-at="2023-03-03T10:32:40 IST" duration-ms="10144" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="newMessage()[pri:0, instance:DemoQA.NewMessage@4f83df68]" started-at="2023-03-03T10:32:40 IST" name="newMessage" finished-at="2023-03-03T10:32:40 IST" duration-ms="23" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- newMessage -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:DemoQA.NewMessage@4f83df68]" started-at="2023-03-03T10:32:40 IST" name="afterMethod" finished-at="2023-03-03T10:32:40 IST" duration-ms="131" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- DemoQA.NewMessage -->
+      <class name="DemoQA.Accordian">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:DemoQA.Accordian@55b699ef]" started-at="2023-03-03T10:35:00 IST" name="beforeMethod" finished-at="2023-03-03T10:35:08 IST" duration-ms="8025" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="accordian()[pri:0, instance:DemoQA.Accordian@55b699ef]" started-at="2023-03-03T10:35:08 IST" name="accordian" finished-at="2023-03-03T10:35:08 IST" duration-ms="303" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- accordian -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:DemoQA.Accordian@55b699ef]" started-at="2023-03-03T10:35:08 IST" name="afterMethod" finished-at="2023-03-03T10:35:08 IST" duration-ms="137" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- DemoQA.Accordian -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

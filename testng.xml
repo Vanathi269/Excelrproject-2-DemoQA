@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="1" name="Suite">
+  <test thread-count="1" name="Test">
+    <classes>
+      <class name="DemoQA.FrameTwoScrollDown"/>
+      <class name="DemoQA.BrowserWindow"/>
+      <class name="DemoQA.ConfirmAlert"/>
+      <class name="DemoQA.Tag"/>
+      <class name="DemoQA.CancelAlert"/>
+      <class name="DemoQA.NewMessage"/>
+      <class name="DemoQA.NewTab"/>
+      <class name="DemoQA.Widgets"/>
+      <class name="DemoQA.TimerAlert"/>
+      <class name="DemoQA.SmallModal"/>
+      <class name="DemoQA.Alerts"/>
+      <class name="DemoQA.Slider"/>
+      <class name="DemoQA.OldSelectOne"/>
+      <class name="DemoQA.ProgressBar"/>
+      <class name="DemoQA.NewWindowMessage"/>
+      <class name="DemoQA.LaunchingBrowser"/>
+      <class name="DemoQA.ToolTip"/>
+      <class name="DemoQA.TwoFrames"/>
+      <class name="DemoQA.LargeModal"/>
+      <class name="DemoQA.FooterSection"/>
+      <class name="DemoQA.Accordian"/>
+      <class name="DemoQA.WidgetsTwo"/>
+      <class name="DemoQA.PropmtAlert"/>
+      <class name="DemoQA.AlertsButton"/>
+      <class name="DemoQA.Demo"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
